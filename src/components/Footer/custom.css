@@ -1,0 +1,88 @@
+.footerElTitle{
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.footerElPostTitle,
+.footerElPostUser,
+.footerElPostReadMore,
+.footerElLinks a,
+.footerElTweet a{
+    color: #76c38f;
+}
+
+.footerElPostDomain{
+    color:#666666;
+}
+.footerElPostDate,
+.footerElPostText,
+.footerElTweet,
+.copyright{
+    color: #979797;
+}
+
+.footerElPostText,
+.qaqarin{
+    margin: 5px 0;
+}
+
+.footerElLinks{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.footerElLinks:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footerElLinks a{
+    padding-left: 5px;
+    transition: padding .3s;
+}
+
+.footerElLinks a:hover,
+.footerElTweet a:hover,
+.footerElPostUser:hover{
+    text-decoration: underline;
+}
+
+.footerElLinks a:hover{
+    padding-left: 10px;
+}
+
+.footerElTweet:not(:last-child){
+    margin-bottom: 15px;
+}
+
+.contactUsForm input,
+.contactUsForm textarea{
+    background: #222222;
+    color: #979797;
+    border: none;
+    outline: none;
+    width: 100% !important;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    border-radius: 8px;
+}
+.contactUsForm textarea{
+    resize: none;
+}
+
+.contactUsForm button{
+    color: #303030;
+    outline: none;
+    border: none;
+    background-color: #76c38f;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.copyright{
+    width: 80%;
+}

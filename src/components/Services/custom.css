@@ -1,0 +1,12 @@
+.servicesImg{
+    width:120px;
+    height: 120px;
+}
+.servicesTitle{
+    color: #333333;
+    margin:10px 0;
+    text-transform: uppercase;
+}
+.servicesDesc{
+    color:#979797;
+}
